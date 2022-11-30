@@ -1,0 +1,211 @@
+@font-face {
+    font-family: rockstar;
+    src: url(RS-regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+/* .part-one {
+    border-radius: 20px 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #9bbed0;
+} */
+
+body 
+{
+    background: #b2c5ce;
+    font-family: montserrat;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+#logo {  
+    float: right; 
+    margin-left: 20px; 
+}
+
+#photo {  
+    float: right; 
+    margin-left: 20px; 
+    margin-top: 30px; 
+}
+
+#ada {  
+    float: left;
+    margin-right: 35px; 
+}
+
+#rahida {
+    float: left;
+    margin-right: 35px;
+}
+
+#aysel {
+    float: left;
+    margin-right: 35px;
+}
+
+#narmina {
+    float: left;
+    margin-right: 35px;
+}
+
+#aydan {
+    float: left;
+    margin-right: 35px;
+}
+
+.button {
+    border-radius: 20px 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    margin-right: 1%;
+    background-color: #336178;
+    color: #dde5ed;
+    text-decoration: solid;
+    font-size: 20px;
+    font-family: rockstar;
+}
+
+.button:hover {
+    border-radius: 20px 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    margin-right: 1%;
+    background-color: #51a0c8;
+    color: black;
+    text-decoration: solid;
+    font-size: 20px;
+    font-family: rockstar;
+}
+
+.contact {
+    font-size: 16px;
+    margin-left: 205px; 
+}
+
+a {
+    color: #ae485e;
+}
+
+a:hover {
+    color: #e7607d;
+}
+
+#code {
+    height: 15%;
+    width: 15%;
+    float: right; 
+    margin-left: 20px; 
+    margin-top: 50px;
+}
+h1 {
+    font-family: rockstar;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: rockstar;
+    font-size: 27px;
+}
+
+hr {
+    color: hsl(10, 67%, 26%);
+}
+
+p {
+    font-size: 17.5px;
+}
+
+ol 
+{
+    padding: 0;
+    font-size: 18.5px;
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+strong {
+    color: #ae485e;
+}
+
+ul {
+    margin-left: -20px;
+}
+
+
+.active 
+{
+    color: #FDF5E6;
+}
+
+h3
+{
+    color:cadetblue;
+}
+
+
+h
+{
+   
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Table */
+
+table 
+{
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+}
+
+thead th 
+{
+    background: #336178;
+    color: #FFF;
+    font-family: rockstar;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+tr 
+{
+    background: #f4f7f8;
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+th, td
+{
+    font-family: montserrat;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    width: 33.3333%;
+}
